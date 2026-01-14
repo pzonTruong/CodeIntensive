@@ -1,0 +1,13 @@
+.title_custom{
+  color: red;
+  border-radius: 2px;
+  background: gray;
+  width: 100%;
+  align-self: center;
+}
+
+.desc{
+  color: yellow;
+  text-decoration: line-through;
+  font-size: large;
+}

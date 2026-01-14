@@ -1,0 +1,33 @@
+.stats-header {
+  grid-column: 1 / -1; /* Makes the header span the full width of the grid */
+  text-align: left;
+  margin-bottom: 2rem;
+  border-left: 4px solid #646cff;
+  padding-left: 1.5rem;
+}
+
+.stats-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.stats-header p {
+  margin: 5px 0 0 0;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.stats-header span {
+  color: #646cff;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* Ensure the grid wraps correctly */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
